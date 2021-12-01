@@ -10,7 +10,9 @@ export function HeroContainer() {
           <Hero.Image variants={imgAnim} src="/images/cool.jpeg" />
         </Hero.ImageHolder>
         <Hero.Info>
-          <Hero.Title variants={titleAnim}>Front End Developer</Hero.Title>
+          <Hero.Title variants={titleAnim}>
+            Front End Developer With an Eye For Details
+          </Hero.Title>
           <Hero.Description variants={descAnim}>
             Amazing Front End Developer who is able to create amazing UI
           </Hero.Description>

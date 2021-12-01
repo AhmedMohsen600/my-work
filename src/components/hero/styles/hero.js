@@ -24,12 +24,16 @@ export const Info = styled(motion.div)`
   gap: 16px;
 `;
 export const Title = styled(motion.h2)`
-  font-size: 50px;
+  font-size: 48px;
   color: white;
+  max-width: 600px;
 `;
 export const Description = styled(motion.p)`
-  font-size: 16px;
+  font-size: 24px;
   color: white;
+  font-weight: 200;
+  max-width: 460px;
+  line-height: 1.2;
 `;
 
 export const ImageHolder = styled(motion.div)`

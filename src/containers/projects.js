@@ -1,17 +1,18 @@
 import React from "react";
 import { MyWork } from "../components";
-import { rotateCard, lineThrow } from "../animation";
+import { rotateCard, rotateCard2 } from "../animation";
 import projectsData from "../fixtures/projectsData.json";
 import data from "../fixtures/data.json";
+
 export function ProjectsContainer() {
   // variants
   return (
-    <MyWork>
-      <MyWork.Title variants={rotateCard}>Projects</MyWork.Title>
+    <MyWork initial="hidden" animate="show">
+      <MyWork.Title>Projects</MyWork.Title>
       <MyWork.ProjectsHolder>
         <MyWork.FirstContainer>
           {projectsData.map((pro) => (
-            <MyWork.ProjectCard key={pro.id} variants={lineThrow}>
+            <MyWork.ProjectCard variants={rotateCard} key={pro.id}>
               <MyWork.ProjectImage src={pro.src} />
               <MyWork.ProjectDesc>
                 <MyWork.CardTitle>{pro.title}</MyWork.CardTitle>
@@ -22,7 +23,7 @@ export function ProjectsContainer() {
         </MyWork.FirstContainer>
         <MyWork.SecondContainer>
           {data.map((card) => (
-            <MyWork.ProjectCard key={card.id} variants={lineThrow}>
+            <MyWork.ProjectCard variants={rotateCard2} key={card.id}>
               <MyWork.ProjectImage src={card.src} />
               <MyWork.ProjectDesc>
                 <MyWork.CardTitle>{card.title}</MyWork.CardTitle>

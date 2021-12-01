@@ -65,10 +65,27 @@ export const lineThrow = {
 };
 
 export const rotateCard = {
-  hidden: {
-    scale: "2",
-  },
+  hidden: { opacity: 0, x: 500 },
+
   show: {
-    scale: "1",
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 1,
+      ease: "easeOut",
+    },
+  },
+};
+
+export const rotateCard2 = {
+  hidden: { opacity: 0, x: -500 },
+
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 1,
+      ease: "easeOut",
+    },
   },
 };

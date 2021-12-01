@@ -63,3 +63,12 @@ export const lineThrow = {
     },
   },
 };
+
+export const rotateCard = {
+  hidden: {
+    scale: "2",
+  },
+  show: {
+    scale: "1",
+  },
+};

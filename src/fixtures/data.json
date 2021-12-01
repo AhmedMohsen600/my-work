@@ -1,0 +1,14 @@
+[
+    {
+        "id": 4,
+        "title": "Ignite",
+        "desc": "This project was for practice on my skills in redux.",
+        "src": "capture.png"
+    },
+    {
+        "id": 5,
+        "title": "Capture",
+        "desc": "This project was for practice on animations.",
+        "src": "ignite.png"
+    }
+]

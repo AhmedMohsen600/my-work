@@ -9,6 +9,6 @@ export const GlobalStyles = createGlobalStyle`
   
   html,body{
     background: #1b1b1b;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Urbanist', sans-serif;
   }
 `;

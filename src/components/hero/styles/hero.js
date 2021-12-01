@@ -5,6 +5,7 @@ export const Container = styled(motion.section)`
   position: relative;
   overflow-x: hidden;
   min-height: 90vh;
+  border-bottom: 8px solid #222;
 `;
 
 export const Inner = styled.div`
@@ -39,6 +40,7 @@ export const ImageHolder = styled(motion.div)`
 export const Image = styled(motion.img)`
   max-width: 100%;
   object-fit: cover;
+  border-radius: 16px;
 `;
 
 export const Empty = styled.div`

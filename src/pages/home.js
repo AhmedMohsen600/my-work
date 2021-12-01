@@ -1,13 +1,13 @@
 import React from "react";
 import { HeaderContainer } from "../containers/header";
 import { HeroContainer } from "../containers/hero";
-import { AccordiansContainer } from "../containers/accordians";
+import { ProjectsContainer } from "../containers/projects";
 export default function Home() {
   return (
     <>
       <HeaderContainer />
       <HeroContainer />
-      {/* <AccordiansContainer /> */}
+      <ProjectsContainer />
     </>
   );
 }

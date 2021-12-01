@@ -1,7 +1,7 @@
 import styled from "styled-components/macro";
 import { motion } from "framer-motion";
 export const Container = styled(motion.section)`
-  margin: 40px 0;
+  margin: 40px 0 8px 0;
   min-height: 60vh;
   overflow-x: hidden;
 `;
@@ -26,7 +26,7 @@ export const Title = styled(motion.h3)`
 export const ProjectsHolder = styled(motion.div)`
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin: 40px 0;
   gap: 32px;
 `;
 

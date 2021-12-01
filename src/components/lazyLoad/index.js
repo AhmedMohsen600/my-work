@@ -3,8 +3,8 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function LazyLoad({ src, alt }) {
   return (
-    <div>
-      <LazyLoadImage src={src} alt={alt} />
+    <div style={{ flex: 1 }}>
+      <LazyLoadImage height="auto" width="80%" src={src} alt={alt} />
     </div>
   );
 }

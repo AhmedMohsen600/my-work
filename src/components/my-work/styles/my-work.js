@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 export const Container = styled(motion.section)`
   margin: 40px 0;
   min-height: 60vh;
+  overflow-x: hidden;
 `;
 
 export const Inner = styled(motion.div)`

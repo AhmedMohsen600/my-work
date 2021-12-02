@@ -38,7 +38,7 @@ export const ProjectImage = styled(motion.div)`
   transition: all 0.3s ease;
 `;
 
-export const ProjectCard = styled(motion.div)`
+export const ProjectCard = styled(motion.a)`
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -47,6 +47,7 @@ export const ProjectCard = styled(motion.div)`
   align-items: flex-start;
   width: 31.7%;
   border-radius: 5px;
+  text-decoration: none;
   cursor: pointer;
   &:hover > ${ProjectImage} {
     opacity: 1;

@@ -1,14 +1,16 @@
 [
     {
         "id": 4,
-        "title": "Ignite",
+        "title": "Capture",
         "desc": "This project was for practice on my skills in animations.",
-        "src": "capture.png"
+        "src": "capture.png",
+        "link": "https://capture-gules.vercel.app/"
     },
     {
         "id": 5,
-        "title": "Capture",
+        "title": "Ignite",
         "desc": "This project was for practice on Redux.",
-        "src": "ignite.png"
+        "src": "ignite.png",
+        "link": "https://ignite-mu.vercel.app/"
     }
 ]

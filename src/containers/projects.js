@@ -11,19 +11,29 @@ export function ProjectsContainer() {
       <MyWork.Title>Projects</MyWork.Title>
       <MyWork.ProjectsHolder>
         <MyWork.FirstContainer>
-          {projectsData.map((pro) => (
-            <MyWork.ProjectCard variants={rotateCard} key={pro.id}>
-              <MyWork.ProjectImage src={pro.src} />
+          {projectsData.map((card) => (
+            <MyWork.ProjectCard
+              href={card.link}
+              target="_blank"
+              variants={rotateCard}
+              key={card.id}
+            >
+              <MyWork.ProjectImage src={card.src} />
               <MyWork.ProjectDesc>
-                <MyWork.CardTitle>{pro.title}</MyWork.CardTitle>
-                <MyWork.Desc>{pro.desc}</MyWork.Desc>
+                <MyWork.CardTitle>{card.title}</MyWork.CardTitle>
+                <MyWork.Desc>{card.desc}</MyWork.Desc>
               </MyWork.ProjectDesc>
             </MyWork.ProjectCard>
           ))}
         </MyWork.FirstContainer>
         <MyWork.SecondContainer>
           {data.map((card) => (
-            <MyWork.ProjectCard variants={rotateCard2} key={card.id}>
+            <MyWork.ProjectCard
+              target="_blank"
+              href={card.link}
+              variants={rotateCard2}
+              key={card.id}
+            >
               <MyWork.ProjectImage src={card.src} />
               <MyWork.ProjectDesc>
                 <MyWork.CardTitle>{card.title}</MyWork.CardTitle>

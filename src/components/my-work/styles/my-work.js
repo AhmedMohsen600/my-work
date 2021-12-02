@@ -4,6 +4,7 @@ export const Container = styled(motion.section)`
   margin: 40px 0 8px 0;
   min-height: 60vh;
   overflow-x: hidden;
+  z-index: -1;
 `;
 
 export const Inner = styled(motion.div)`

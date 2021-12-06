@@ -13,6 +13,13 @@ export const Inner = styled.div`
   width: 95%;
   margin: auto;
   gap: 48px;
+  @media (max-width: 1000px) {
+    gap: 32px;
+  }
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: 24px;
+  }
 `;
 // for the Info
 export const Info = styled(motion.div)`
@@ -22,18 +29,34 @@ export const Info = styled(motion.div)`
   flex: 1;
   overflow-y: hidden;
   gap: 16px;
+  @media (max-width: 600px) {
+    gap: 8px;
+  }
 `;
 export const Title = styled(motion.h2)`
   font-size: 48px;
   color: white;
   max-width: 600px;
+  @media (max-width: 1000px) {
+    font-size: 32px;
+  }
+  @media (max-width: 600px) {
+    font-size: 24px;
+    max-width: 350px;
+  }
 `;
 export const Description = styled(motion.p)`
   font-size: 24px;
   color: white;
   font-weight: 200;
-  max-width: 460px;
+  max-width: 100%;
   line-height: 1.2;
+  @media (max-width: 1000px) {
+    font-size: 20px;
+  }
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
 `;
 
 export const ImageHolder = styled(motion.div)`

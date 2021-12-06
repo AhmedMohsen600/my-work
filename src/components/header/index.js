@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, Nav, Logo, Links, Group } from "./styles/header";
+import { Container, Nav, Logo, Links, Group, JobTitle } from "./styles/header";
 export default function Header({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
 }
@@ -19,4 +19,8 @@ Header.Links = function HeaderLinks({ children, ...restProps }) {
 
 Header.Group = function HeaderGroup({ children, ...restProps }) {
   return <Group {...restProps}>{children}</Group>;
+};
+
+Header.JobTitle = function HeaderJobTitle({ children, ...restProps }) {
+  return <JobTitle {...restProps}>{children}</JobTitle>;
 };

@@ -10,11 +10,14 @@ export function HeroContainer() {
       </Hero.ImageHolder>
       <Hero.Info>
         <Hero.Title variants={titleAnim}>
-          Front End Developer With an Eye For Details.
+          Front End Developer With an
+          <span style={{ color: "#25d897" }}> Eye For Details.</span>
         </Hero.Title>
         <Hero.Description variants={descAnim}>
-          Amazing Front End Developer who is able to create amazing UI and
-          greate responsivity.
+          Junior Front End Developer with 1 year of experience in building
+          responsive websites with HTML, CSS, SASS, JavaScript. Expertise in
+          frameworks like React.js an agile environment using git as version
+          control. Passionate about clean code and getting things done.
         </Hero.Description>
       </Hero.Info>
     </Hero>

@@ -9,7 +9,7 @@
     {
         "id": 5,
         "title": "Ignite",
-        "desc": "This project was for practice on Redux.",
+        "desc": "This project was for practice on state management (Redux).",
         "src": "ignite.png",
         "link": "https://ignite-mu.vercel.app/"
     }

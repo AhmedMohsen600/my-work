@@ -22,6 +22,9 @@ export const Logo = styled(motion.h1)`
   font-size: 30px;
   color: white;
   font-family: "Allison", cursive;
+  @media (max-width: 500px) {
+    font-size: 20px;
+  }
 `;
 
 export const Links = styled(ReactRouterLink)`
@@ -33,7 +36,18 @@ export const Links = styled(ReactRouterLink)`
 
 export const Group = styled.ul`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 24px;
+`;
+
+export const JobTitle = styled.h2`
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+  font-style: normal;
+  max-width: 100%;
+  @media (max-width: 500px) {
+    max-width: 100px;
+    font-size: 20px;
+  }
 `;

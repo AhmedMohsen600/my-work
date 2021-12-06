@@ -22,6 +22,9 @@ export const Title = styled(motion.h3)`
   color: white;
   text-decoration: underline;
   text-decoration-thickness: 3px;
+  @media (max-width: 600px) {
+    font-size: 32px;
+  }
 `;
 
 export const ProjectsHolder = styled(motion.div)`
@@ -53,6 +56,15 @@ export const ProjectCard = styled(motion.a)`
   &:hover > ${ProjectImage} {
     opacity: 1;
   }
+  @media (max-width: 800px) {
+    flex: 1 1 350px;
+  }
+  @media (max-width: 1000px) {
+    width: 50%;
+  }
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 `;
 
 export const ProjectDesc = styled(motion.div)`
@@ -80,9 +92,19 @@ export const FirstContainer = styled.div`
   gap: 32px;
   justify-content: center;
   align-items: center;
+  @media (max-width: 800px) {
+    flex-wrap: wrap;
+  }
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 `;
 
 export const SecondContainer = styled(FirstContainer)`
   justify-content: flex-start;
   align-items: flex-start;
+  @media (max-width: 1000px) {
+    justify-content: center;
+    align-items: center;
+  }
 `;

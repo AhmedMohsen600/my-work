@@ -1,5 +1,6 @@
 import styled from "styled-components/macro";
 import { motion } from "framer-motion";
+
 export const Container = styled(motion.section)`
   margin: 40px 0 8px 0;
   min-height: 60vh;
@@ -14,6 +15,9 @@ export const Inner = styled(motion.div)`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media (max-width: 600px) {
+    width: 93%;
+  }
 `;
 
 export const Title = styled(motion.h3)`
@@ -40,6 +44,8 @@ export const ProjectImage = styled(motion.div)`
   height: 220px;
   opacity: 0.5;
   transition: all 0.3s ease;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 `;
 
 export const ProjectCard = styled(motion.a)`
@@ -50,7 +56,7 @@ export const ProjectCard = styled(motion.a)`
   justify-content: center;
   align-items: flex-start;
   width: 31.7%;
-  border-radius: 5px;
+  border-radius: 8px;
   text-decoration: none;
   cursor: pointer;
   &:hover > ${ProjectImage} {

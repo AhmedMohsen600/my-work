@@ -16,6 +16,9 @@ export const Nav = styled.nav`
   width: 95%;
   margin: auto;
   padding: 5px 0;
+  @media (max-width: 600px) {
+    width: 93%;
+  }
 `;
 
 export const Logo = styled(motion.h1)`

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useMemo } from "react";
 
 import {
   Container,
@@ -23,8 +23,39 @@ export default function Hero({ children, ...restProps }) {
 Hero.Info = function HeroInfo({ children, ...restProps }) {
   return <Info {...restProps}>{children}</Info>;
 };
-Hero.Image = function HeroImage({ ...restProps }) {
-  return <Image {...restProps} />;
+Hero.Image = function HeroImage({
+  loadingSrc,
+  actualSrc,
+  errorSrc,
+  ...restProps
+}) {
+  const [isImageLoaded, setImageLoaded] = useState(false);
+  // const [hasError, setHasError] = useState(false);
+  const src = useMemo(() => {
+    // if (hasError) {
+    //   return errorSrc;
+    // }
+
+    if (isImageLoaded) {
+      return actualSrc;
+    }
+
+    return loadingSrc;
+  }, [isImageLoaded, actualSrc, loadingSrc]);
+  return (
+    <Image
+      src={src}
+      loading="lazy"
+      onLoad={() => {
+        setImageLoaded(true);
+        console.log("LOADED");
+      }}
+      onError={() => {
+        console.log("ops ERORR");
+      }}
+      {...restProps}
+    />
+  );
 };
 
 Hero.Description = function HeroDescription({ children, ...restProps }) {

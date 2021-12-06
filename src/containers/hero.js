@@ -6,7 +6,13 @@ export function HeroContainer() {
     <Hero initial="hidden" animate="show">
       <Hero.ThrowLine variants={lineThrow} />
       <Hero.ImageHolder>
-        <Hero.Image variants={imgAnim} src="/images/cool.jpeg" alt="me-pic" />
+        <Hero.Image
+          variants={imgAnim}
+          actualSrc="/images/cool.jpeg"
+          // errorSrc="/images/cool.jpeg"
+          loadingSrc="/images/cool.jpeg"
+          alt="me-pic"
+        />
       </Hero.ImageHolder>
       <Hero.Info>
         <Hero.Title variants={titleAnim}>

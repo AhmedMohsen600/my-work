@@ -19,6 +19,7 @@ export const Inner = styled.div`
   @media (max-width: 600px) {
     flex-direction: column;
     gap: 24px;
+    width: 93%;
   }
 `;
 // for the Info

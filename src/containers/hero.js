@@ -15,7 +15,7 @@ export function HeroContainer() {
         </Hero.Title>
         <Hero.Description variants={descAnim}>
           Junior Front End Developer with 1 year of experience in building
-          responsive websites with HTML, CSS, SASS, JavaScript. Expertise in
+          responsive websites using HTML, CSS, SASS, JavaScript. Expertise in
           frameworks like React.js an agile environment using git as version
           control. Passionate about clean code and getting things done.
         </Hero.Description>

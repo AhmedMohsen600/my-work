@@ -36,7 +36,7 @@ export const Info = styled(motion.div)`
 export const Title = styled(motion.h2)`
   font-size: 48px;
   color: white;
-  max-width: 600px;
+  max-width: 650px;
   @media (max-width: 1000px) {
     font-size: 32px;
   }
@@ -50,7 +50,7 @@ export const Description = styled(motion.p)`
   color: white;
   font-weight: 200;
   max-width: 100%;
-  line-height: 1.2;
+  line-height: 1.3;
   @media (max-width: 1000px) {
     font-size: 20px;
   }
@@ -79,4 +79,9 @@ export const ThrowLine = styled(motion.div)`
   position: absolute;
   top: 20rem;
   left: 1px;
+
+  @media (max-width: 600px) {
+    top: auto;
+    bottom: 16rem;
+  }
 `;

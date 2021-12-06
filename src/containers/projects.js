@@ -3,10 +3,11 @@ import { MyWork } from "../components";
 import { rotateCard, rotateCard2 } from "../animation";
 import projectsData from "../fixtures/projectsData.json";
 import data from "../fixtures/data.json";
-
+import { useScroll } from "../hooks";
 export function ProjectsContainer() {
+  const [element, control] = useScroll();
   return (
-    <MyWork initial="hidden" animate="show">
+    <MyWork reff={element} initial="hidden" animate={control}>
       <MyWork.Title>Projects</MyWork.Title>
       <MyWork.ProjectsHolder>
         <MyWork.FirstContainer>

@@ -12,9 +12,9 @@ import {
   FirstContainer,
   SecondContainer,
 } from "./styles/my-work";
-export default function MyWork({ children, ...restProps }) {
+export default function MyWork({ children, reff, ...restProps }) {
   return (
-    <Container {...restProps}>
+    <Container ref={reff} {...restProps}>
       <Inner>{children}</Inner>
     </Container>
   );

@@ -66,12 +66,11 @@ export const lineThrow = {
 
 export const rotateCard = {
   hidden: { opacity: 0, x: 500 },
-
   show: {
     opacity: 1,
     x: 0,
     transition: {
-      duration: 1,
+      duration: 1.3,
       ease: "easeOut",
     },
   },
@@ -79,12 +78,11 @@ export const rotateCard = {
 
 export const rotateCard2 = {
   hidden: { opacity: 0, x: -500 },
-
   show: {
     opacity: 1,
     x: 0,
     transition: {
-      duration: 1,
+      duration: 1.3,
       ease: "easeOut",
     },
   },

@@ -20,10 +20,9 @@ export function HeroContainer() {
           <span style={{ color: "#25d897" }}> Eye For Details.</span>
         </Hero.Title>
         <Hero.Description variants={descAnim}>
-          Junior Front End Developer with 1 year of experience in building
-          responsive websites using HTML, CSS, SASS, JavaScript. Expertise in
-          frameworks like React.js an agile environment using git as version
-          control. Passionate about clean code and getting things done.
+          Web Developer/ Frontend engineer with a proven ability to write clean,
+          modular, reusable code and willingness to learn more, with a desire to
+          apply learned skills.
         </Hero.Description>
       </Hero.Info>
     </Hero>

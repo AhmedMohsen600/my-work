@@ -10,6 +10,7 @@ import {
   Empty,
   ThrowLine,
   Inner,
+  DownloadButton,
 } from "./styles/hero";
 
 export default function Hero({ children, ...restProps }) {
@@ -73,4 +74,12 @@ Hero.Empty = function HeroEmoty() {
 
 Hero.ThrowLine = function HeroThrowLine({ ...restProps }) {
   return <ThrowLine {...restProps} />;
+};
+
+Hero.DownloadButton = function HeroDownloadButton({ ...restProps }) {
+  return (
+    <DownloadButton href="/resume.pdf" download="Ahmed-cv" {...restProps}>
+      Download CV
+    </DownloadButton>
+  );
 };

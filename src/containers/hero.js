@@ -1,6 +1,12 @@
 import React from "react";
 import { Hero } from "../components";
-import { titleAnim, descAnim, imgAnim, lineThrow } from "../animation";
+import {
+  titleAnim,
+  descAnim,
+  imgAnim,
+  lineThrow,
+  downloadBtn,
+} from "../animation";
 export function HeroContainer() {
   return (
     <Hero initial="hidden" animate="show">
@@ -24,6 +30,7 @@ export function HeroContainer() {
           modular, reusable code and willingness to learn more, with a desire to
           apply learned skills.
         </Hero.Description>
+        <Hero.DownloadButton variants={downloadBtn} />
       </Hero.Info>
     </Hero>
   );

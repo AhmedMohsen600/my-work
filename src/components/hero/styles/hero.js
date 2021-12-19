@@ -86,3 +86,23 @@ export const ThrowLine = styled(motion.div)`
     bottom: 16rem;
   }
 `;
+
+export const DownloadButton = styled(motion.a)`
+  text-decoration: none;
+  background-color: none;
+  border-radius: 8px;
+  border: 3px solid rgb(37, 216, 151);
+  font-size: 16px;
+  color: white;
+  align-self: flex-start;
+  padding: 14px 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 600px) {
+    margin-top: 8px;
+    border: 2px solid rgb(37, 216, 151);
+    padding: 12px 13px;
+  }
+`;

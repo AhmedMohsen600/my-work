@@ -87,3 +87,16 @@ export const rotateCard2 = {
     },
   },
 };
+
+export const downloadBtn = {
+  hidden: {
+    y: 500,
+  },
+  show: {
+    y: 0,
+    transition: {
+      duration: 1.5,
+      ease: "easeOut",
+    },
+  },
+};

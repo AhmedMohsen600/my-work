@@ -100,9 +100,14 @@ export const DownloadButton = styled(motion.a)`
   display: flex;
   justify-content: center;
   align-items: center;
-  @media (max-width: 600px) {
+  font-weight: 900;
+  transition: background-color 0.5s ease;
+  @media (max-width: 1000px) {
     margin-top: 8px;
     border: 2px solid rgb(37, 216, 151);
     padding: 12px 13px;
+  }
+  &:hover {
+    background-color: rgb(37, 216, 151);
   }
 `;

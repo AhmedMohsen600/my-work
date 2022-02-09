@@ -26,9 +26,9 @@ export function HeroContainer() {
           <span style={{ color: "#25d897" }}> Eye For Details.</span>
         </Hero.Title>
         <Hero.Description variants={descAnim}>
-          Web Developer/ Frontend engineer with a proven ability to write clean,
-          modular, reusable code and willingness to learn more, with a desire to
-          apply learned skills.
+          Frontend developer(React.js) with a proven ability to write clean
+          modular, reusable code, well organised architecture and willingness to
+          learn more, with a desire to apply learned skills.
         </Hero.Description>
         <Hero.DownloadButton variants={downloadBtn} />
       </Hero.Info>

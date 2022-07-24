@@ -41,7 +41,7 @@ export const ProjectsHolder = styled(motion.div)`
 export const ProjectImage = styled(motion.div)`
   width: 100%;
   background: url(${({ src }) => `/images/${src}`}) center / cover no-repeat;
-  height: 220px;
+  height: 230px;
   opacity: 0.5;
   transition: all 0.3s ease;
   border-top-left-radius: 8px;
@@ -55,6 +55,7 @@ export const ProjectCard = styled(motion.a)`
   background-color: #1b1b1b;
   justify-content: center;
   align-items: flex-start;
+  align-self: stretch;
   width: 31.7%;
   border-radius: 8px;
   text-decoration: none;

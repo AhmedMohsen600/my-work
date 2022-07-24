@@ -1,16 +1,23 @@
 [
-    {
-        "id": 4,
-        "title": "Capture",
-        "desc": "This project was for practice on my skills in animations.",
-        "src": "capture.png",
-        "link": "https://capture-gules.vercel.app/"
-    },
-    {
-        "id": 5,
-        "title": "Ignite",
-        "desc": "This project was for practice on state management (Redux).",
-        "src": "ignite.png",
-        "link": "https://ignite-mu.vercel.app/"
-    }
+  {
+    "id": 4,
+    "title": "Bankers Learning Hub",
+    "desc": "This project for a company that offer services, Programs & certificates, and events for specific audiences.",
+    "src": "bank.png",
+    "link": "https://banking-project.vercel.app/"
+  },
+  {
+    "id": 5,
+    "title": "Capture",
+    "desc": "This project was for practice on my skills in animations.",
+    "src": "capture.png",
+    "link": "https://capture-gules.vercel.app/"
+  },
+  {
+    "id": 6,
+    "title": "Ignite",
+    "desc": "This project was for practice on state management (Redux).",
+    "src": "ignite.png",
+    "link": "https://ignite-mu.vercel.app/"
+  }
 ]

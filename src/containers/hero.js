@@ -27,8 +27,8 @@ export function HeroContainer() {
         </Hero.Title>
         <Hero.Description variants={descAnim}>
           Frontend developer(React.js) with a proven ability to write clean
-          modular, reusable code, well organised architecture and willingness to
-          learn more, with a desire to apply learned skills.
+          components, reusable code, well-organized architecture, and a
+          willingness to learn more, with a desire to apply learned skills.
         </Hero.Description>
         <Hero.DownloadButton variants={downloadBtn} />
       </Hero.Info>

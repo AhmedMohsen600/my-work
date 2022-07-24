@@ -1,23 +1,23 @@
 [
-    {
-        "id": 1,
-        "title": "Elfahd Group",
-        "desc": "This project for Browsing cars and reserve a car and user can take picture of his License and National ID.",
-        "src": "rent.png",
-        "link": "https://rent-cars.vercel.app/"
-    },
-    {
-        "id": 2,
-        "title": "Esours-competition",
-        "desc": "This project for designers competition and it display their work on it",
-        "src": "esorus.png",
-        "link": "https://esours.vercel.app/shortlist"
-    },
-    {
-        "id": 3,
-        "title": "Bankers Learning Hub",
-        "desc": "This project for a company that offer services, Programs & certificates, and events for specific audiences.",
-        "src": "bank.png",
-        "link": "https://banking-project.vercel.app/"
-    }
+  {
+    "id": 1,
+    "title": "SMC group",
+    "desc": "Designed & Developed a company website, that provides all relative works & services to Solar Energy. Also provides Trainings for engineering students in different branches.",
+    "src": "solar-img.png",
+    "link": "https://www.smcgroupegy.com/"
+  },
+  {
+    "id": 2,
+    "title": "Elfahd Group",
+    "desc": "This project for Browsing cars and reserve a car and user can take picture of his License and National ID.",
+    "src": "rent.png",
+    "link": "https://rent-cars.vercel.app/"
+  },
+  {
+    "id": 3,
+    "title": "Esours-competition",
+    "desc": "This project for designers competition and it display their work on it",
+    "src": "esorus.png",
+    "link": "https://esours.vercel.app/shortlist"
+  }
 ]

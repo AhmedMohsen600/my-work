@@ -78,7 +78,11 @@ Hero.ThrowLine = function HeroThrowLine({ ...restProps }) {
 
 Hero.DownloadButton = function HeroDownloadButton({ ...restProps }) {
   return (
-    <DownloadButton href="/resume.pdf" download="Ahmed-cv" {...restProps}>
+    <DownloadButton
+      href="/ahmed-mohsen-resume.pdf"
+      download="Ahmed-cv"
+      {...restProps}
+    >
       Download CV
     </DownloadButton>
   );
